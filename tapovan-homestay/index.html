@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Tapovan Day Night Home Stay</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:white;
+}
+
+/* header */
+
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+background:rgba(0,0,0,0.6);
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+color:#22c55e;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+nav a:hover{
+color:#22c55e;
+}
+
+/* hero */
+
+.hero{
+height:100vh;
+background:url("room1.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:700;
+background:rgba(0,0,0,0.5);
+padding:25px;
+border-radius:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.btn{
+background:#22c55e;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+color:white;
+display:inline-block;
+margin-top:20px;
+}
+
+/* section */
+
+.section{
+padding:80px 10%;
+text-align:center;
+}
+
+.section h2{
+font-size:35px;
+margin-bottom:40px;
+color:#22c55e;
+}
+
+/* rooms */
+
+.rooms{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.room{
+background:#1e293b;
+border-radius:10px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.room img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.room:hover{
+transform:scale(1.05);
+}
+
+.room h3{
+margin:15px 0 5px;
+}
+
+/* facilities */
+
+.facilities{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.facility{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+/* footer */
+
+footer{
+background:#020617;
+padding:40px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px 20px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Tapovan Home Stay</div>
+
+<nav>
+<a href="#rooms">Rooms</a>
+<a href="#facilities">Facilities</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div>
+
+<h1>Welcome To Tapovan Day Night Home Stay</h1>
+
+<p>Peaceful Stay In Tapovan Rishikesh</p>
+
+<a class="btn" href="https://wa.me/918077977688">Book Now</a>
+
+</div>
+
+</section>
+
+
+<section class="section" id="rooms">
+
+<h2>Our Rooms</h2>
+
+<div class="rooms">
+
+<div class="room">
+<img src="/images/room1.jpg.jpg">
+<h3>Double Room</h3>
+<p>₹1400 / Night</p>
+</div>
+
+<div class="room">
+<img src="/images/room2.jpg.jpg">
+<h3>Comfort Room</h3>
+<p>₹1400 / Night</p>
+</div>
+
+<div class="room">
+<img src="/images/room3.jpg.jpg">
+<h3>Family Room</h3>
+<p>₹1400 / Night</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="facilities">
+
+<h2>Facilities</h2>
+
+<div class="facilities">
+
+<div class="facility">Free Wifi</div>
+<div class="facility">Hot Water</div>
+<div class="facility">Breakfast</div>
+<div class="facility">Lunch</div>
+<div class="facility">Dinner</div>
+<div class="facility">Clean Hygienic Rooms</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="about">
+
+<h2>About Us</h2>
+
+<p>
+
+Welcome to Tapovan Day Night Home Stay.  
+We provide clean and hygienic rooms with peaceful environment in Tapovan Rishikesh.  
+Guests can enjoy home made food, free wifi, hot water and comfortable stay.
+
+</p>
+
+</section>
+
+
+<section class="section" id="contact">
+
+<h2>Contact</h2>
+
+<p>Phone : 8077977688</p>
+
+<p>Check In : Anytime</p>
+
+<p>Check Out : 10 AM</p>
+
+<p>Address : Uttarakhand, Rishikesh, Tapovan, Sarai, Gulab Nagar</p>
+
+<br>
+
+<a class="btn" href="tel:8077977688">Call Now</a>
+
+<br><br>
+
+<a class="btn" href="https://maps.app.goo.gl/cPetzGRyxLSnvNdZ7">Open Location</a>
+
+</section>
+
+
+<footer>
+
+<p>© Tapovan Day Night Home Stay</p>
+
+</footer>
+
+
+<a class="whatsapp" href="https://wa.me/918077977688">Chat</a>
+
+
+</body>
+</html>
